@@ -1,0 +1,23 @@
+{
+    "name": "apolt01-029/composer",
+    "description": "..",
+    "license": "LTS",
+    "autoload": {
+        "psr-4": {
+            "App\\": [
+                "./scripts/factura",
+                "./scripts/usuario",
+                "./scripts/"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Braian-Quintian",
+            "email": "bquintianromero@gmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "~1.6"
+    }
+}
